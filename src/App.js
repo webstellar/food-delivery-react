@@ -102,7 +102,7 @@ function App() {
                     <MenuCard
                       imgSrc={data.imgSrc}
                       name={data.name}
-                      isActive={data.id == "1" ? true : false}
+                      isActive={data.id === "1" ? true : false}
                     />
                   </div>
                 ))}
